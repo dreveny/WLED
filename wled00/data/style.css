@@ -9,6 +9,10 @@ body {
 hr {
   border-color: #666;
 }
+a {
+  color: #28f;
+  text-decoration: none;
+}
 button, .btn {
   background: #333;
   color: #fff;
@@ -35,6 +39,9 @@ input {
   font-family: Verdana, sans-serif;
   border: 0.5ch solid #333;
 }
+input:disabled {
+  color: #888;
+}
 input[type="number"] {
   width: 4em;
   margin: 2px;
@@ -59,7 +66,6 @@ input[type="number"].xs {
 }
 input[type="checkbox"] {
   transform: scale(1.5);
-  margin-right: 10px;
 }
 select {
   background: #333;
@@ -73,7 +79,6 @@ td {
 .d5 {
   width: 4.5em !important;
 }
-
 #toast {
 	opacity: 0;
 	background-color: #444;
